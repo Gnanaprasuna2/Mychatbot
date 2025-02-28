@@ -1,4 +1,4 @@
-impport streamlit as st
+import streamlit as st
 import google.generativeai as genai
 API_KEY= "AIzaSyBfea3okDI8wDK6iYTjZZu72W2MC8htuSU"
 genai.configure(api_key=API_KEY)
